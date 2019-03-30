@@ -10,3 +10,6 @@ $("#add-employee-btn").click(function (x) {
     console.log(monthlyRate)
 
 })
+$("#add-employee-btn").click(function(event){
+    event.preventDefault();
+  });
